@@ -1,4 +1,4 @@
-import React from "react"
+
 import styled from "styled-components"
 
 const Container = styled.section`
@@ -92,7 +92,8 @@ const CTALogoTwo = styled.img`
 margin-bottom: 12px;
 max-width:600px;
 min-height: 1px;
-display: block;
+display: inline-block;
+vertical-align: bottom;
 width: 100%;
 
 `
